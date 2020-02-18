@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  eywebapppn:
+   image: pnfebwebapp:v10
+   build: 
+    context: .
+    dockerfile: pn.dockerfile
+   container_name: pn11
+   ports:
+    - "8777:80"
+                          
